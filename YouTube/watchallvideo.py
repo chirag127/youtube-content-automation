@@ -10,8 +10,7 @@ import keyboard
 
 
 def main():
-    x = False
-
+    x = True
     key_to_pause_going_to_Next_video = "x"
     key_to_resume_going_to_Next_video = "z"
     key_to_pause_for_some_minutes_going_to_Next_video = "p"
