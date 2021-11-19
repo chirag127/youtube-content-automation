@@ -11,12 +11,6 @@ def main():
 
     sleep(1)
 
-    close_tab()
-
-    sleep(0.1)
-
-    close_tab()
-
     pl_to_wl.main()
 
     sleep(1)
