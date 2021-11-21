@@ -10,14 +10,12 @@ import keyboard
 
 
 def main():
-    x = True
+    x = False
     key_to_pause_going_to_Next_video = "x"
     key_to_resume_going_to_Next_video = "z"
     key_to_pause_for_some_minutes_going_to_Next_video = "p"
 
     while True:
-
-        pyautogui.hotkey("shift", "n")
 
         for i in range(0, 100):
 
@@ -41,7 +39,9 @@ def main():
 
                 time.sleep(0.01)
 
-            time.sleep(0.1)
+            time.sleep(0.03)
+
+        pyautogui.hotkey("shift", "n")
 
 
 if __name__ == "__main__":
