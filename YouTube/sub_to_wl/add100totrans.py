@@ -3,7 +3,9 @@ from functions import *
 
 x_offset = 0
 
-
+# Physical: {X=677,Y=445}
+# Physical: {X=728,Y=454}
+# Physical: {X=775,Y=546}
 # defining the function to click on the 3 dots button at (x,y) coordinates = (680,480)
 def click_on_three_dots_on_subcription():
     pyautogui.moveTo(680, 471 + x_offset)
