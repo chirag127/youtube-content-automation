@@ -12,10 +12,12 @@
 (function () {
   "use strict";
   document.addEventListener("DOMContentLoaded", function () {
-
     document.querySelectorAll("button[aria-label='Action menu']")[0].click();
-    document.querySelector("#items > ytd-menu-service-item-renderer:nth-child(2) > tp-yt-paper-item").click();
-
+    document
+      .querySelector(
+        "#items > ytd-menu-service-item-renderer:nth-child(2) > tp-yt-paper-item"
+      )
+      .click();
 
     // window.onload = document.querySelector("#items > ytd-menu-service-item-renderer.style-scope.ytd-menu-popup-renderer.iron-selected[aria-selected='false']").click();
     // document.querySelector("#items > ytd-menu-service-item-renderer.style-scope.ytd-menu-popup-renderer:last-child > tp-yt-paper-item.style-scope.ytd-menu-service-item-renderer > yt-formatted-string.style-scope.ytd-menu-service-item-renderer:last-child#items > ytd-menu-service-item-renderer:nth-child(2) > tp-yt-paper-item").click();
