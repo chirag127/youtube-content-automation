@@ -18,4 +18,3 @@ for i in range(0, topic_list_len):
     topic = topic_list[i]
     search_url = f"https://www.youtube.com/results?search_query={topic}&sp=EgIQAQ%253D%253D"
     webbrowser.open(search_url)
-

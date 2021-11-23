@@ -26,12 +26,12 @@ def click_save_to_wl():
 
 def main():
 
-
     click_3_dots()
     sleep(0.5)
     click_checkbox()
     sleep(0.5)
     click_save_to_wl()
+
 
 if __name__ == '__main__':
 
@@ -40,10 +40,8 @@ if __name__ == '__main__':
         if keyboard.is_pressed('ctrl + c'):
             for i in range(1, 10):
 
-                main() 
+                main()
 
-                pyautogui.hotkey('ctrl', 'tab')   
+                pyautogui.hotkey('ctrl', 'tab')
 
                 sleep(1)
-
-            

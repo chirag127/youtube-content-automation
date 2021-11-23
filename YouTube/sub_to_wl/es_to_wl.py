@@ -17,4 +17,3 @@ if __name__ == "__main__":
     open_subscriptions_page_in_edge()
 
     s_to_wl.main()
-
