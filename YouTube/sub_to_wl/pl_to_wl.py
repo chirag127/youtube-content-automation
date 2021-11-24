@@ -7,7 +7,7 @@ import pyautogui
 
 def open_playlist_url_of_trans_playlist():
     webbrowser.open(
-        'https://www.youtube.com/playlist?list=PLrE9n-AXgulgEbU-T7vi6MqfJNs49M5bg')
+        'https://www.youtube.com/playlist?list=PLrE9n-AXguljf_OCLyyGgdwJ-yW1xp3Zg')
     sleep(5)
 
 # defining the function to click on the 3 dots on the top right corner of the playlist area at (1845,240)
