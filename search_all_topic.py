@@ -1,12 +1,6 @@
 import webbrowser
 
-
-syllabus = """Virtual Instrumentation,Graphical programming techniques,Data types,Advantage of Virtual Instrumentation techniques,Concept of WHILE loop,FOR loop,Arrays,Clusters,graphs,Structure: Case,Structure: Sequence ,Structure: Formula nodes,Need of software based instruments for industrial automation."""
-
-# Concept of Searching, Sequential search, Index Sequential Search, Binary Search.Concept of Hashing & Collision resolution Techniques used in Hashing. Sorting: Insertion Sort,Selection, Bubble Sort, Quick Sort, Merge Sort, Heap Sort and Radix Sort
-
-
-## syllabus = "concept of searching,sequential search,index sequential search,binary search,concept of hashing,collision resolution techniques used in hashing,insertion sort,selection,bubble sort,quick sort,merge sort,heap sort,radix sort"
+syllabus = "Arithmetic logic unit,Look ahead carries adders,Multiplication,Signed operand,multiplication using Booths algorithm,array multiplier,Division & logic operations,Floating point arithmetic operation,Arithmetic & logic unit design,IEEE Standard for Floating Point Numbers,"
 
 topic_list = syllabus.split(",")
 
