@@ -1,8 +1,6 @@
 # this python script will remove the watched video from the list from the https://www.youtube.com/playlist?list=WL
 
 # import the necessary modules
-import pyautogui
-import webbrowser
 from functions import *
 
 x = 0

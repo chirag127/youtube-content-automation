@@ -1,5 +1,3 @@
-import webbrowser
-import pyautogui
 from functions import *
 
 

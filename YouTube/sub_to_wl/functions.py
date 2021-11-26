@@ -1,5 +1,7 @@
 import keyboard
 import pyautogui
+import webbrowser
+
 from time import sleep
 
 

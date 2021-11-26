@@ -1,5 +1,6 @@
-import pyautogui
 from functions import *
+
+x_offset = 25
 
 
 # Physical: {X=677,Y=445}
@@ -8,23 +9,23 @@ from functions import *
 # defining the function to click on the 3 dots button at (x,y) coordinates = (680,480)
 
 # Physical: {X=676,Y=444}
-# Physical: {X=736,Y=464}
+# Physical: {X=736,Y=464}.\env\Scripts\activate
 # Physical: {X=772,Y=542}
 
 def click_on_three_dots_on_subcription():
-    pyautogui.moveTo(680, 445)
+    pyautogui.moveTo(680, 445 + x_offset)
     pyautogui.click()
 
 
 # defining the function to click on the checkbox button to select all videos on the page at (x,y) coordinates = (730,490)
 def click_on_checkbox_on_subcription():
-    pyautogui.moveTo(730, 464)
+    pyautogui.moveTo(730, 464 + x_offset)
     pyautogui.click()
 
 
 # defining the function to click on the "Add to queue" button at (x,y) coordinates = (800,570)
 def click_on_add_to_queue_on_subcription():
-    pyautogui.moveTo(730, 542)
+    pyautogui.moveTo(730, 542 + x_offset)
     pyautogui.click()
 
 # click on expand at 1400,680
