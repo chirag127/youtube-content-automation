@@ -1,7 +1,6 @@
 import pyautogui
 from functions import *
 
-x_offset = -25
 
 # Physical: {X=677,Y=445}
 # Physical: {X=728,Y=454}
