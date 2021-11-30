@@ -1,6 +1,6 @@
 from functions import *
 
-x_offset = 25
+x_offset = 0
 
 
 # Physical: {X=677,Y=445}
