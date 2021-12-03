@@ -2,7 +2,7 @@ from functions import *
 import webbrowser
 import pyautogui
 
-# defining the function to open the playlist url in the browser https://www.youtube.com/playlist?list=PLrE9n-AXguljnCwUdN0DJtdpYiu2lfMRE
+# defining the function to open the playlist url in the browser
 
 
 def open_playlist_url_of_trans_playlist():

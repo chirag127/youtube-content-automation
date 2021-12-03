@@ -54,11 +54,15 @@ def click_on_trans_playlist_after_click_on_the_save_button_above_the_queue_playl
 
 def main():
 
+    sleep(2)
+
+    pyautogui.hotkey('ctrl', 'r')
+
     sleep(10)
+
 
     click_on_three_dots_on_subcription()
 
-    sleep(0.5)
 
     click_on_checkbox_on_subcription()
 
