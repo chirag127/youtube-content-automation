@@ -9,7 +9,7 @@ def open_trending():
 
 
 def wait_for_trending_page():
-    sleep(5)
+    sleep(3)
 
 # click the three dots to the right of the video title on the trending page
 
