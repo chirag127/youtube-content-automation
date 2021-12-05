@@ -84,6 +84,9 @@ def main():
 
     sleep(2)
 
+# # open youtube website
+# webbrowser.open("https://www.youtube.com/")
+
 
 if __name__ == '__main__':
     while True:
