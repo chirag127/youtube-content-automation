@@ -1,16 +1,15 @@
-# s to wl
+# S to wl
 
 ## errors with reasons
 
 delay in execution of the script due to delay in pressing the button
 
-wait for the sites.
+Wait for the sites.
 
-how to use the keyboard shortcuts.
+How to use the keyboard shortcuts.
 
-changes of coordinates and reasons for the changes.
+Changes of coordinates and reasons for the changes.
 
-bookmark bar
+Bookmark bar
 download bar
-somealert 
-live / set reminders
+some alerts live / set reminders
