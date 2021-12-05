@@ -6,7 +6,7 @@ from functions import *
 # Physical: {X=772,Y=542}
 
 
-def main():
+def add_100_to_quene():
     multiselect = pyautogui.locateOnScreen('multiselect1_add100.png')
     x_three_dots = multiselect[0] + 20
     y_three_dots = multiselect[1] + 10
@@ -47,7 +47,7 @@ def main():
 
     sleep(8)
 
-    main()
+    add_100_to_quene()
 
     sleep(5)
 
@@ -62,9 +62,6 @@ def main():
     click_on_trans_playlist_after_click_on_the_save_button_above_the_queue_playlist_created_by_the_add100totrans_function()
 
     sleep(2)
-
-# # open youtube website
-# webbrowser.open("https://www.youtube.com/")
 
 
 if __name__ == '__main__':
