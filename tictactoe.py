@@ -6,13 +6,24 @@ import random
 
 board = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 end = False
-win_combinations = ((0, 1, 2), (3, 4, 5), (6, 7, 8), (0, 3, 6), (1, 4, 7), (2, 5, 8), (0, 4, 8), (2, 4, 6))
+win_combinations = (
+    (0, 1, 2),
+    (3, 4, 5),
+    (6, 7, 8),
+    (0, 3, 6),
+    (1, 4, 7),
+    (2, 5, 8),
+    (0, 4, 8),
+    (2, 4, 6),
+)
+
 
 def draw():
     print(board[0], board[1], board[2])
     print(board[3], board[4], board[5])
     print(board[6], board[7], board[8])
     print()
+
 
 def choose_number():
     while True:
@@ -25,6 +36,7 @@ def choose_number():
         except ValueError:
             print("Please choose a number between 1-9: ")
 
+
 def p1():
     n = choose_number()
     if board[n] == "X" or board[n] == "O":
@@ -32,6 +44,7 @@ def p1():
         p1()
     else:
         board[n] = "X"
+
 
 def p2():
     n = choose_number()
@@ -41,12 +54,14 @@ def p2():
     else:
         board[n] = "O"
 
+
 def choose_first():
     flip = random.randint(0, 1)
     if flip == 0:
         return p2
     else:
         return p1
+
 
 def check_board():
     for i in win_combinations:

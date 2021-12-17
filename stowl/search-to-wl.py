@@ -11,11 +11,13 @@ import keyboard
 def click_3_dots():
     pyautogui.click(1756, 260)
 
+
 # define a function to click on the checkbox on the search results to select all the videos.
 
 
 def click_checkbox():
     pyautogui.click(1444, 271)
+
 
 # define a function to click on the save to watch later button
 
@@ -33,15 +35,15 @@ def main():
     click_save_to_wl()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     while True:
 
-        if keyboard.is_pressed('ctrl + c'):
+        if keyboard.is_pressed("ctrl + c"):
             for i in range(1, 10):
 
                 main()
 
-                pyautogui.hotkey('ctrl', 'tab')
+                pyautogui.hotkey("ctrl", "tab")
 
                 sleep(1)

@@ -10,6 +10,7 @@ def wait_for_do_key():
             break
         sleep(0.01)
 
+
 # define function to close tab
 
 

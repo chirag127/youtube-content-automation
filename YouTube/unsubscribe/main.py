@@ -27,7 +27,7 @@ def main():
     # close_tab()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     wait_for_do_key()
 
     for i in range(1, 5):

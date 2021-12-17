@@ -4,7 +4,7 @@ import webbrowser
 
 if __name__ == "__main__":
 
-    webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+    webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
     while True:
 

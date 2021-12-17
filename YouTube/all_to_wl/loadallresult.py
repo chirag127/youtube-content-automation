@@ -8,7 +8,7 @@ def main():
 
     for i in range(1, 30):
 
-        pyautogui.press('end')
+        pyautogui.press("end")
 
         sleep(1.5)
 
