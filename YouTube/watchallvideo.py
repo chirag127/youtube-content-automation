@@ -44,7 +44,7 @@ def main():
 
                 time.sleep(0.01)
 
-            time.sleep(0.03)
+            time.sleep(0.06)
 
         pyautogui.hotkey("shift", "n")
 
