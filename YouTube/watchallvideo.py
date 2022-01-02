@@ -31,7 +31,6 @@ def main():
                 print("key_to_pause_for_some_minutes_going_to_Next_video is pressed")
                 time.sleep(time_to_pause_for_some_minutes_going_to_Next_video)
 
-
             while not x:
 
                 if keyboard.is_pressed(key_to_resume_going_to_Next_video):

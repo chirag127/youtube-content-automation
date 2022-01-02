@@ -23,7 +23,7 @@ def main():
 
     sleep(0.2)
 
-# define a function to click on the save to watch later button
+    # define a function to click on the save to watch later button
 
     x_save_to_wl = x - 312
 

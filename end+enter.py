@@ -30,9 +30,5 @@ if __name__ == "__main__":
             sleep(0.01)
         if true_false:
             main()
-        
+
         sleep(0.01)
-        
-
-            
-
