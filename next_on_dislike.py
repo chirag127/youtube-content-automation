@@ -11,8 +11,8 @@ def main():
         pyautogui.hotkey("shift", "n")
 
 
-
 if __name__ == "__main__":
-    
+
     while True:
         main()
+        sleep(0.1)
