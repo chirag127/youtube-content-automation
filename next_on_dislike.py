@@ -5,9 +5,11 @@ from time import sleep
 
 def main():
 
-    if keyboard.is_pressed("d"):
-        print("d is pressed")
-        sleep(0.01)
+    if keyboard.is_pressed("n"):
+        sleep(0.5)
+        print("n is pressed")
+        pyautogui.press("d")
+        sleep(0.5)
         pyautogui.hotkey("shift", "n")
 
 
