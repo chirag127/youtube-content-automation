@@ -9,7 +9,7 @@ def main():
         sleep(0.5)
         print("n is pressed")
         pyautogui.press("d")
-        sleep(0.5)
+        sleep(0.1)
         pyautogui.hotkey("shift", "n")
 
 

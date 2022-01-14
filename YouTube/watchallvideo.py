@@ -1,7 +1,7 @@
-import pyautogui
 import time
-import keyboard
 
+import keyboard
+import pyautogui
 
 # write a code to watch all video in the watch later list of youtube videos
 # and play the video when the user presses the space bar
@@ -19,7 +19,7 @@ def main():
 
     while True:
 
-        for i in range(0, 100):
+        for i in range(0,60):
 
             if keyboard.is_pressed(key_to_pause_going_to_Next_video):
 
@@ -28,7 +28,7 @@ def main():
 
             if keyboard.is_pressed(key_to_pause_for_some_minutes_going_to_Next_video):
                 time_to_pause_for_some_minutes_going_to_Next_video = 100
-                print("key_to_pause_for_some_minutes_going_to_Next_video is pressed")
+                print("key_to_pause_fordN_some_minutes_going_to_Next_video is pressed")
                 time.sleep(time_to_pause_for_some_minutes_going_to_Next_video)
 
             while not x:
@@ -37,13 +37,19 @@ def main():
 
                     x = True
 
-                if keyboard.is_pressed(key_to_pause_going_to_Next_video):
+                elif keyboard.is_pressed(key_to_pause_going_to_Next_video):
 
                     x = False
 
-                time.sleep(0.01)
+                else:
 
-            time.sleep(0.06)
+                    time.sleep(0.1)
+
+            time.sleep(0.1)
+
+        pyautogui.press("d")
+
+        time.sleep(0.1)
 
         pyautogui.hotkey("shift", "n")
 
