@@ -19,7 +19,7 @@ def main():
 
     while True:
 
-        for i in range(0,60):
+        for i in range(0,20):
 
             if keyboard.is_pressed(key_to_pause_going_to_Next_video):
 
@@ -49,9 +49,9 @@ def main():
 
         pyautogui.press("d")
 
-        time.sleep(0.1)
+        time.sleep(0.2)
 
-        pyautogui.hotkey("shift", "n")
+        pyautogui.press("end")
 
         print("next is pressed.")
 
