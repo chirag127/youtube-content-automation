@@ -19,7 +19,7 @@ def main():
 
     while True:
 
-        for i in range(0,20):
+        for i in range(0,30):
 
             if keyboard.is_pressed(key_to_pause_going_to_Next_video):
 
