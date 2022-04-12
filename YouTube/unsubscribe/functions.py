@@ -5,9 +5,7 @@ from time import sleep
 
 # defining the function to wait for user to press z key
 def wait_for_do_key():
-    while True:
-        if keyboard.is_pressed("z"):
-            break
+    while not keyboard.is_pressed("z"):
         sleep(0.1)
 
 

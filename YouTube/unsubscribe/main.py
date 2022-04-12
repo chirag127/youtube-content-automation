@@ -30,5 +30,5 @@ def main():
 if __name__ == "__main__":
     wait_for_do_key()
 
-    for i in range(1, 5):
+    for _ in range(1, 5):
         main()

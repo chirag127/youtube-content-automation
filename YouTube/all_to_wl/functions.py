@@ -5,9 +5,7 @@ import pyautogui
 
 # define function to wait for z key
 def wait_for_do_key():
-    while True:
-        if keyboard.is_pressed("alt + d"):
-            break
+    while not keyboard.is_pressed("alt + d"):
         sleep(0.01)
 
 

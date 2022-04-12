@@ -6,7 +6,7 @@ from functions import *
 
 def main():
 
-    for i in range(1, 30):
+    for _ in range(1, 30):
 
         pyautogui.press("end")
 

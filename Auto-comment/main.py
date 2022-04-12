@@ -40,7 +40,7 @@ def main(url):
 
     sleep(0.01)
 
-    print("Done for " + url)
+    print(f"Done for {url}")
 
     sleep(1)
 

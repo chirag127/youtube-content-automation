@@ -47,7 +47,7 @@ topic_list_len = len(topic_list)
 
 for topic in topic_list:
     topic = topic.strip()
-    search_query = topic + " Virtual Instrumentation"
+    search_query = f'{topic} Virtual Instrumentation'
     search_url = f"https://www.youtube.com/results?search_query={search_query}&sp=EgIQAQ%253D%253D"
     webbrowser.open(search_url)
 
@@ -58,8 +58,7 @@ if __name__ == "__main__":
 
         if keyboard.is_pressed("ctrl + c"):
 
-            for i in range(1, topic_list_len):
-
+            for _ in range(1, topic_list_len):
                 main()
 
                 pyautogui.hotkey("ctrl", "tab")
