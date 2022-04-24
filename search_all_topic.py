@@ -36,10 +36,13 @@ def main():
     click_save_to_wl()
 
 
-syllabus = "Virtual Instrumentation,Graphical programming techniques,Data types,Advantage of Virtual Instrumentation techniques,Concept of WHILE,FOR loops,Arrays,Clusters , graphs,Structures,Case,Sequence , Formula nodes,Need of software based instruments , industrial automation"
+# syllabus = "Virtual Instrumentation,Graphical programming techniques,Data types,Advantage of Virtual Instrumentation techniques,Concept of WHILE,FOR loops,Arrays,Clusters , graphs,Structures,Case,Sequence , Formula nodes,Need of software based instruments , industrial automation"
 
 
-topic_list = syllabus.split(",")
+# topic_list = syllabus.split(",")
+
+with open(r"C:\Users\hp\OneDrive\Documents\GitHub\Auto-YouTube\movies.txt", "r") as f:
+    topic_list = f.readlines()
 
 # define the functiont to search all item the topic-list on youtube
 
@@ -47,7 +50,7 @@ topic_list_len = len(topic_list)
 
 for topic in topic_list:
     topic = topic.strip()
-    search_query = f'{topic} Virtual Instrumentation'
+    search_query = f'{topic}'
     search_url = f"https://www.youtube.com/results?search_query={search_query}&sp=EgIQAQ%253D%253D"
     webbrowser.open(search_url)
 
