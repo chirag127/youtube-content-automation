@@ -13,7 +13,11 @@ def click(x, y):
 # and return the coordinates of the three dots
 
 def main():
-    x_three_dots, y_three_dots = pyautogui.locateCenterOnScreen('three-dot-to-report-s-c.png',region = (0,88,1920,932))
+    try:
+        x_three_dots, y_three_dots = pyautogui.locateCenterOnScreen('three-dot-to-report-s-c.png',region = (0,88,1920,932))
+    except Exception as e:
+        print(e)
+        return
 
     pyautogui.click(x_three_dots, y_three_dots)
 
