@@ -29,6 +29,10 @@ def main():
     # click on the leave group option
     pyautogui.click(1111,577)
 
+    sleep(0.1)
+
+    pyautogui.click(current_x , current_y)
+
 
 if __name__ == "__main__":
 
