@@ -17,7 +17,7 @@ def main():
     # Wait for the menu to appear
     sleep(0.1)
 
-    # find current cordinates
+    # find current coordinates
     current_x, current_y = pyautogui.position()
 
     # Click on the leave group option

@@ -9,7 +9,7 @@ import webbrowser
 
 # define a function to click on the 3 dots on the search results
 def main():
-    image_path = "stowl\\i.png"
+    image_path = "s_to_wl\\i.png"
     image_3_dots = pyautogui.locateOnScreen(image_path, grayscale=True, confidence=0.9)
     x, y = pyautogui.center(image_3_dots)
     y = y - 20
@@ -34,7 +34,7 @@ def main():
     sleep(0.5)
 
 
-with open("stowl\\topic.txt", "r") as f:
+with open("s_to_wl\\topic.txt", "r") as f:
 
     topics = f.readlines()
 

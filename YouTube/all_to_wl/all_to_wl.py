@@ -3,9 +3,9 @@ from functions import *
 
 def main():
     # click on the three dots on the search page
-    multiselect = pyautogui.locateOnScreen("multiselect1.png")
-    x_three_dots = multiselect[0] + 20
-    y_three_dots = multiselect[1] + 10
+    multi_select = pyautogui.locateOnScreen("multi_select1.png")
+    x_three_dots = multi_select[0] + 20
+    y_three_dots = multi_select[1] + 10
     pyautogui.click(x_three_dots, y_three_dots)
 
     sleep(0.1)
