@@ -1,7 +1,8 @@
 import webbrowser
-import pyautogui
 from time import sleep
+
 import keyboard
+import pyautogui
 
 # Physical: {X=1756,Y=260}
 # Physical: {X=1444,Y=271}
@@ -50,7 +51,7 @@ topic_list_len = len(topic_list)
 
 for topic in topic_list:
     topic = topic.strip()
-    search_query = f'{topic}'
+    search_query = f"{topic}"
     search_url = f"https://www.youtube.com/results?search_query={search_query}&sp=EgIQAQ%253D%253D"
     webbrowser.open(search_url)
 

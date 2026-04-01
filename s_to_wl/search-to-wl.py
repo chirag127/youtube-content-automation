@@ -1,6 +1,7 @@
-import pyautogui
-from time import sleep
 import webbrowser
+from time import sleep
+
+import pyautogui
 
 # Physical: {X=1756,Y=260}
 # Physical: {X=1444,Y=271}

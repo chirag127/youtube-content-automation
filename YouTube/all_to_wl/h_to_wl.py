@@ -1,6 +1,7 @@
+import webbrowser
+
 import all_to_wl
 from functions import *
-import webbrowser
 
 if __name__ == "__main__":
 

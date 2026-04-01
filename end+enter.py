@@ -1,6 +1,7 @@
-import pyautogui
 from time import sleep
+
 import keyboard
+import pyautogui
 
 
 def main():

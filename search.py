@@ -1,5 +1,3 @@
-
-
 with open(r"C:\Users\hp\OneDrive\Documents\GitHub\Auto-YouTube\movies.txt", "r") as f:
     topic_list = f.readlines()
 
@@ -19,5 +17,3 @@ for topic in topic_list:
     pyautogui.hotkey("ctrl", "w")
 
     sleep(0.1)
-
-
