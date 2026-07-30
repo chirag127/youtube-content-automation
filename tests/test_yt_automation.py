@@ -71,7 +71,9 @@ def test_watch_later_from_search_navigates(mock_driver):
     mock_driver.find_elements.return_value = []
     mgr = WatchLaterManager(mock_driver)
     # Should not raise even with no elements
-    with patch.object(mgr._wait, "until", side_effect=Exception("timeout")):
+    from selenium.common.exceptions import TimeoutException
+
+    with patch.object(mgr._wait, "until", side_effect=TimeoutException("timeout")):
         result = mgr.from_search("test query", max_videos=5)
     assert result == 0
 
@@ -88,7 +90,9 @@ def test_watch_later_search_url_format():
 
 def test_comment_bot_returns_false_on_timeout(mock_driver):
     bot = CommentBot(mock_driver)
-    with patch.object(bot._wait, "until", side_effect=Exception("timeout")):
+    from selenium.common.exceptions import TimeoutException
+
+    with patch.object(bot._wait, "until", side_effect=TimeoutException("timeout")):
         result = bot._post_comment("test comment")
     assert result is False
 
